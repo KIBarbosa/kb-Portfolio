@@ -28,7 +28,7 @@
             </ul>
         </nav>
         <video autoplay muted loop id="myVideo">
-            <source src="Hello.mp4" type="video/mp4">
+            <source src="documents_pics/Hello.mp4" type="video/mp4">
         </video>
     </div> 
 
@@ -43,7 +43,7 @@
         <h1>About Me</h1>
         <hr style="border-color: #8F9779; margin: auto;">
         <br>
-        <img  id="pic-me" src="onthebeach.jpg">
+        <img  id="pic-me" src="documents_pics/onthebeach.jpg">
         <p style="text-align: center;font-size: 12px;">Natural Bridges State Beach, Santa Cruz, CA</p>
     </div>
     
@@ -65,7 +65,7 @@
             skills required to communicate, organize, and actualize ideas to 
             drive change.
         </h3>
-       
+       <br>
         <hr style="border-color: #8F9779; margin: auto;">
     </div>
     </div>
@@ -180,6 +180,9 @@
           Event Manager Site using the Django web-framework. The site 
           was designed for airsoft community to have a centralized 
           location to store events for different clubs and organizations.
+          <button class="glass-button" style="margin-left:350px; font-size:10px;">
+            <a href="https://github.com/DarianFischi/airsoft_club/tree/Spring2025" style="text-decoration: none; font-weight: bold;color: #94dea5;">View Project Repository</a>
+        </button>
           </p>
       </details>
       <br>
@@ -279,27 +282,27 @@
     <h1>Photography</h1>
    
     <video autoplay muted loop id="vids">
-      <source src="thecaribbean.mp4" type="video/mp4">
+      <source src="slideshow_vids/thecaribbean.mp4" type="video/mp4">
     </video>
 
     <video autoplay muted loop id="vids">
-      <source src="europe.mp4" type="video/mp4">
+      <source src="slideshow_vids/europe.mp4" type="video/mp4">
     </video>
 
     <video autoplay muted loop id="vids">
-      <source src="canada.mp4" type="video/mp4">
+      <source src="slideshow_vids/canada.mp4" type="video/mp4">
     </video>
 
     <video autoplay muted loop id="vids">
-      <source src="us2.mp4" type="video/mp4">
+      <source src="slideshow_vids/us2.mp4" type="video/mp4">
     </video>
 
     <video autoplay muted loop id="vids">
-      <source src="us3.mp4" type="video/mp4">
+      <source src="slideshow_vids/us3.mp4" type="video/mp4">
     </video>
 
     <video autoplay muted loop id="vids">
-      <source src="us1.mp4" type="video/mp4">
+      <source src="slideshow_vids/us1.mp4" type="video/mp4">
     </video>
  
 
@@ -323,12 +326,22 @@
               <li>C/C++</li>
               <li>HTML5</li>
               <li>CSS3</li>
-              <li>JavaScript </li>
+              <li>PHP</li>
+              <li>JavaScript</li>
               <li>CLisp/Scheme</li>
               <li>SQL/SQLite</li>
               <li>Risc-V</li>
             </ul>
             <br>
+           
+            <h3>Frameworks</h3>
+            <hr>
+            <ul>
+              <li>Django</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div class="column2">
             <h3>Operating Systems</h3>
             <hr>
             <ul>
@@ -336,14 +349,7 @@
               <li>macOS</li>
               <li>Unix/Linux</li>
             </ul>
-          </div>
-          <div class="column2">
-            <h3>Frameworks</h3>
-            <hr>
-            <ul>
-              <li>Django</li>
-              <li>Bootstrap</li>
-            </ul>
+            
             <br>
             <h3>Tools</h3>
             <hr>
@@ -354,15 +360,17 @@
               <li>Wireshark</li>
               <li>xampp</li>
               <li>Git/Github/Gitbash</li>
-              <li>Visual Studio Code</li>
               <li>Eclipse</li>
-              <li>Netbeans</li>
+              <li>Formspree</li>
             </ul>
+
           </div>
           <div class="column2">
             <h3>More Tools</h3>
             <hr>
             <ul>
+              <li>Visual Studio Code</li>
+              <li>Netbeans</li>
               <li>Notepadd++</li>
               <li>Vim</li>
               <li>Canva</li>
@@ -378,38 +386,42 @@
         </div>
       
       
-      </section>
+
       <h2 style="margin-left: 15px;color: #b9b26c;">Experiences</h2>
-      <div class="trasnparent-box">
+      
       
         <button class="glass-button">
-            <a href="resume.html" style="text-decoration: none; font-weight: bold;color: #3e363b;">See My Resume</a>
+            <a href="resume.html" style="text-decoration: none; font-weight: bold;color: #94dea5;">See My Resume</a>
         </button>
         <button class="glass-button">
-            <a href="cv.html" style="text-decoration: none; font-weight: bold;color: #3e363b;">See My Curriculum Vita</a>
+            <a href="cv.html" style="text-decoration: none; font-weight: bold;color: #94dea5;">See My Curriculum Vita</a>
         </button>
+        <button class="glass-button">
+          <a href="https://github.com/KIBarbosa?tab=repositories" style="text-decoration: none; font-weight: bold;color: #94dea5;">See My GitHub</a>
+      </button>
         <br>
 
-   </div>
+   
   </div>
+</section>
   <br>
    <img src="hr.png">
-   <br><br>
+   <br>
 
    <h2 style="margin-left: 15px;color: #b9b26c;">Contact Me</h2>
       <br>
    <div class="contact">
-    <form method="post" action="action_page.php">
-        <label for="name" style="font-weight: bold;color: #3e363b;">Name or Organization:</label>
-        <input type="text" id="name" name="name" required><br><br>
+    <form method="POST" action="https://formspree.io/f/manoqbbb">
+        <label for="name" style="font-weight: bold;color: #94dea5;">Name or Organization:</label>
+        <input type="text"  name="name" required><br>
       
-        <label for="email" style="font-weight: bold;color: #3e363b;">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+        <label for="email" style="font-weight: bold;color: #94dea5;">Email:</label>
+        <input type="email"  name="email" required><br>
       
-        <label for="message" style="font-weight: bold;color: #3e363b;">Message:</label>
-        <textarea id="message" name="message" rows="5" cols="33" required></textarea><br><br>
+        <label for="message" style="font-weight: bold; color: #94dea5;">Message:
+        <textarea name="message" style="height: 150px;"required></textarea></label>
       
-        <input type="submit" value="Submit">
+        <button type="submit" class="glass-button" style="margin-left: 350px; margin-top: 5px;">Send</button>
       </form>
       
    </div>
@@ -471,8 +483,5 @@
 </footer>
 
 </body>
-
-
-</footer>
 
 </html>
