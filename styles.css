@@ -53,7 +53,7 @@ nav {
 }
 
  #myVideo {
-  max-height: 300px;
+  max-height: 800px;
   transition: all 0.2s ease 0s;
   width: 100%;
   border-bottom:solid rgb(107, 97, 40);
